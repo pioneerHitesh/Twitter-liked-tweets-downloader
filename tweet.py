@@ -17,7 +17,7 @@ def get_liked_tweet(browser:webdriver.Chrome) -> dict:
     
     tweet_count = 0
 
-    while(tweet_count <= TWEET_LIMIT):
+    while(tweet_count < TWEET_LIMIT):
     
         try:
              # extracts the tweet's container or html tag
